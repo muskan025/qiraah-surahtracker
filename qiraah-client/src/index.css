@@ -1,0 +1,57 @@
+:root {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size:20px;
+  font-optical-sizing:auto;
+  
+  line-height: 1.5;
+  color: #425C69;
+  background-color: #E0E4E6;
+
+  --box-shadow:7px 7px 5px -2px #070707a4,-7px -7px 5px -2px #DFDFDF;
+  --el-font-size: clamp(16px, 2vw, 20px);
+  --el-s-font-size: clamp(14px, 1vw, 17px);
+  --el-bg-color: #2F4B60;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.arabic{
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: goldenrod;
+}
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+}
+ 
+*,*::after,*::before{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+main{
+  width:100vw;
+  min-height:100%;
+}
+ 
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+ 
+ 
