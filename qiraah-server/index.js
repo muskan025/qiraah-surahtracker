@@ -41,5 +41,5 @@ app.get('/',(req,res)=>{
 app.use('/audio',AudioRouter)
 
 app.listen(PORT,()=>{
-    console.log(`http://localhost:${PORT}`)
+    console.log(`https://qiraah-backend.vercel.app`)
 })
