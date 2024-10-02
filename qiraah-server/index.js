@@ -31,7 +31,7 @@ console.log('MongoDB connected')
 
 
 app.get('/',(req,res)=>{
- 
+ console.log("Server is running")
     return res.send({ 
         status:200,
         message:'This is home route'
