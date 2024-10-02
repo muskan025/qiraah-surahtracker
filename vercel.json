@@ -13,7 +13,7 @@
     ],
     "routes": [
       {
-        "src": "/(.*)",  
+        "src": "/audio/(.*)",  
         "dest": "qiraah-server/index.js"  
       },
       {
