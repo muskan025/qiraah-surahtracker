@@ -1,0 +1,24 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "qiraah-server/index.js",  
+        "use": "@vercel/node"
+      },
+      {
+        "src": "qiraah-client/package.json",   
+        "use": "@vercel/static-build",
+        "config": { "distDir": "dist" }   
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",  
+        "dest": "qiraah-server/index.js"  
+      },
+      {
+        "src": "/(.*)",  
+        "dest": "qiraah-client/dist/$1"   
+      }
+    ]
+  }
