@@ -16,7 +16,7 @@ app.use(fileUpload({
 app.use(cors({
     origin: 'https://qiraah.vercel.app', 
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
+    allowedHeaders: ['Accept','Content-Type'],
     credentials: true
   }));
 
